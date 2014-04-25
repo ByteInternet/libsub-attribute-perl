@@ -1,0 +1,16 @@
+Source: libsub-attribute-perl
+Section: perl
+Priority: optional
+Maintainer: Gertjan Oude Lohuis <gertjan@byte.nl>
+Build-Depends: debhelper (>= 9.20120312),
+ perl
+Standards-Version: 3.9.5
+Homepage: https://metacpan.org/release/Sub-Attribute
+
+Package: libsub-attribute-perl
+Architecture: any
+Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+Description: Reliable subroutine attribute handlers
+ (no description was found)
+ .
+ This description was automagically extracted from the module by dh-make-perl.
